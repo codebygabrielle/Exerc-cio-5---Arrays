@@ -1,0 +1,24 @@
+INÍCIO
+i ← 0
+ENQUANTO (i < 10) FAÇA
+    ESCREVER "Informe o valor ", i + 1, ":"
+    LER V[i]
+    i ← i + 1
+FIM_ENQUANTO
+
+maior ← V[0]
+menor ← V[0]
+i ← 1
+ENQUANTO (i < 10) FAÇA
+    SE (V[i] > maior) ENTÃO
+        maior ← V[i]
+    FIM_SE
+    SE (V[i] < menor) ENTÃO
+        menor ← V[i]
+    FIM_SE
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Maior elemento: ", maior
+ESCREVER "Menor elemento: ", menor
+FIM
