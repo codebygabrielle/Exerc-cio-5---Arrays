@@ -1,0 +1,15 @@
+INÍCIO
+i ← 0
+ENQUANTO (i < 6) FAÇA
+    ESCREVER "Informe o valor ", i + 1, ":"
+    LER V[i]
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Valores na ordem inversa:"
+i ← 5
+ENQUANTO (i >= 0) FAÇA
+    ESCREVER V[i]
+    i ← i - 1
+FIM_ENQUANTO
+FIM
