@@ -1,0 +1,23 @@
+INÍCIO
+i ← 0
+ENQUANTO (i < 10) FAÇA
+    ESCREVER "Informe o número real ", i + 1, ":"
+    LER A[i]
+    B[i] ← A[i] * A[i]
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Vetor A:"
+i ← 0
+ENQUANTO (i < 10) FAÇA
+    ESCREVER A[i]
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Vetor B (quadrados):"
+i ← 0
+ENQUANTO (i < 10) FAÇA
+    ESCREVER B[i]
+    i ← i + 1
+FIM_ENQUANTO
+FIM
