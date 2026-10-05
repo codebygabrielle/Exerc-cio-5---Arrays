@@ -1,0 +1,14 @@
+INÍCIO
+qtdPares ← 0
+i ← 0
+ENQUANTO (i < 10) FAÇA
+    ESCREVER "Informe o valor ", i + 1, ":"
+    LER V[i]
+    SE (V[i] MOD 2 == 0) ENTÃO
+        qtdPares ← qtdPares + 1
+    FIM_SE
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Quantidade de valores pares: ", qtdPares
+FIM
