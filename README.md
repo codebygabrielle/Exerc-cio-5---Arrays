@@ -1,1 +1,1 @@
-# Exerc-cio-5---Arrays
+# Exercício 5 - Arrays
