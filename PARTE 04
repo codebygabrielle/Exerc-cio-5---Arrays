@@ -1,0 +1,25 @@
+INÍCIO
+i ← 0
+ENQUANTO (i < 8) FAÇA
+    ESCREVER "Informe o valor da posição ", i, ":"
+    LER V[i]
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Informe a posição X (0 a 7):"
+LER X
+ENQUANTO (X < 0 OU X > 7) FAÇA
+    ESCREVER "Posição inválida, informe de 0 a 7:"
+    LER X
+FIM_ENQUANTO
+
+ESCREVER "Informe a posição Y (0 a 7):"
+LER Y
+ENQUANTO (Y < 0 OU Y > 7) FAÇA
+    ESCREVER "Posição inválida, informe de 0 a 7:"
+    LER Y
+FIM_ENQUANTO
+
+soma ← V[X] + V[Y]
+ESCREVER "Soma dos valores das posições ", X, " e ", Y, ": ", soma
+FIM
