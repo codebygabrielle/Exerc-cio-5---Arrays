@@ -1,0 +1,29 @@
+INÍCIO
+i ← 0
+ENQUANTO (i < 10) FAÇA
+    ESCREVER "Informe o número inteiro ", i + 1, ":"
+    LER V[i]
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Vetor:"
+i ← 0
+ENQUANTO (i < 10) FAÇA
+    ESCREVER V[i]
+    i ← i + 1
+FIM_ENQUANTO
+
+maior ← V[0]
+posicao ← 0
+i ← 1
+ENQUANTO (i < 10) FAÇA
+    SE (V[i] > maior) ENTÃO
+        maior ← V[i]
+        posicao ← i
+    FIM_SE
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Maior elemento: ", maior
+ESCREVER "Posição do maior elemento: ", posicao
+FIM
