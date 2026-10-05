@@ -1,0 +1,18 @@
+INÍCIO
+qtdNegativos ← 0
+somaPositivos ← 0
+i ← 0
+ENQUANTO (i < 10) FAÇA
+    ESCREVER "Informe o número real ", i + 1, ":"
+    LER V[i]
+    SE (V[i] < 0) ENTÃO
+        qtdNegativos ← qtdNegativos + 1
+    SENÃO_SE (V[i] > 0) ENTÃO
+        somaPositivos ← somaPositivos + V[i]
+    FIM_SE
+    i ← i + 1
+FIM_ENQUANTO
+
+ESCREVER "Quantidade de números negativos: ", qtdNegativos
+ESCREVER "Soma dos números positivos: ", somaPositivos
+FIM
